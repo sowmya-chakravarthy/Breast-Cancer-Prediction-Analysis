@@ -61,3 +61,12 @@ Support Vector Machine (SVM) is a powerful supervised learning algorithm used fo
 The code uses a for loop to create and train three SVM models with different kernels: linear, sigmoid, and polynomial (poly). For each model, it calculates the accuracy using 10-fold cross-validation and prints the results. The average accuracies for each kernel are stored in a list (accList). Best Kernel Selection: After comparing the average accuracies for different kernels, the code prints the best-performing kernel based on the highest accuracy achieved during the cross-validation process.
 
 -- Linear kernel performs best using 10-fold cross validation with accuracy of 0.9714078374455732.
+
+|   Classifier   |    Accuracy   |
+| -------------- | ------------- |
+| Decision Tree  |     95.22%    |
+| Random Forest  |     96.37%    |
+|      KNN       |     97.33%    |
+|  Guassian NB   |     96.75%    |
+| Multinomial NB |     89.88%    |
+
