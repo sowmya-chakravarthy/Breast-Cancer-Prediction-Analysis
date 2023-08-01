@@ -6,6 +6,15 @@ The code performs a breast cancer classification task using machine learning tec
 
 Dataset used - https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data
 
+**Techniques used:**
+
+- Decision Tree
+- Random Forest
+- KNN
+- Guassian Naive Bayes
+- Multinomial Naive Bayes
+- SVM
+
 ### DECISION TREE CLASSIFIER
 
 A decision tree classifier is a powerful machine learning algorithm used for solving classification tasks. It constructs a tree-like model where each internal node represents a decision based on a particular feature, and each leaf node represents a class label. The algorithm recursively partitions the data into subsets, aiming to maximize the purity of the resulting subsets based on metrics like Gini impurity or entropy. Decision trees are highly interpretable, capable of handling both numerical and categorical data, and capturing nonlinear relationships.
